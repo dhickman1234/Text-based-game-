@@ -1,0 +1,25 @@
+print("The game has loaded, you finally wake up..")
+print("You find yourself enclosed in a dark mysterious cave with two doors labeled 1 and 2. Choose which door, 1 or 2?")
+roomSelection = input("Enter 1 or 2")
+if roomSelection == "1":
+    print("You have entered room 1")
+    roomSelection = input("Now the door is locked behind you and you're trapped in a cave. To your right you see a ladder and to your left you see some loose rocks. Press enter.")
+    roomSelection = input("Choose to climb the ladder or kick down the loose rocks.")
+    if roomSelection == "ladder":
+    	print("You climbed up the ladder and now are ontop a rock made bridge with bright green acid sitting down bellow.")
+    elif roomSelection == "loose rocks":
+	    print("You kicked down the loose rocks and now are in some sort of factory  type dungeon where you hear voices everywhere around you.")
+    else:
+    	print("Bro pick an option stupid. Your life is now ending.")
+elif roomSelection == "2":
+	print("You have entered room 2")
+	roomSelection = input("You see a dark tunnel with no light at all. Would you like to enter it? Yes or no")
+	if roomSelection == "yes":
+	    print("You have entered into the darkness and you hear wierd noises echo around you.")
+	elif roomSelection == "no":
+	    print("You decided to go back and look for a less creepy path.")
+	else:
+	    print("Bro pick an option stupid. Your life is now ending.")
+    
+
+
